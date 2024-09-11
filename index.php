@@ -23,7 +23,7 @@
     <?php include'includes/modal.php'; ?>
 
     <!-- Hero-секция -->
-    <section class="hero-section" id="home">
+    <section class="hero-section border rounded 3" id="home">
    <?php include'sections/Hero.php';?>
 </section>
     <!-- Секция "Что вы узнаете на курсе" -->
