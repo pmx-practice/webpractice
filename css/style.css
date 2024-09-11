@@ -1,0 +1,281 @@
+
+body {
+    background-color: #bec9fa;
+    color: #000000; /* Текст черный */
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* Навигация */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333333;
+    padding: 10px 0;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+/* Кнопка "Задать вопрос" */
+.ask-question-btn {
+    
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    z-index: 1050;
+    background-color: #fdd835;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.ask-question-btn-1 {
+    position: fixed;
+    bottom: 10px; /* Устанавливаем кнопку внизу */
+    right: 20px;  /* Размещаем кнопку справа */
+    z-index: 1050;
+    background-color: #fdd835;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Hero-секция */
+.hero-section {
+    background-color: #b2bff7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 100%;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-text .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Кнопки */
+.btn-primary {
+    background-color: #fdd835;
+    color: #000000;
+    border: none;
+}
+
+.btn-outline-light {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Секции */
+.program-section, .tariff-section, .what-you-learn {
+    padding: 50px 0;
+}
+
+.tariff-card, .learn-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-height: 450px;
+}
+
+.tariff-card h5 {
+    font-weight: bold;
+}
+
+.tariff-card ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.tariff-card ul li {
+    margin-bottom: 10px;
+}
+
+.tariff-card ul li .icon-checked {
+    float: right;
+}
+
+.tariff-card button {
+    margin-top: 20px;
+}
+
+/* CTA блок */
+.cta-section {
+    background-color: #fdd835;
+    color: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-section .btn {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+}
+
+/* Testimonials секция */
+.testimonials-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.testimonials-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.testimonial-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial-card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.testimonial-card h5 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Подвал */
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Иконки для тарифов */
+.icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.icon-checked {
+    color: #ffd700;
+}
+
+.icon-unchecked {
+    color: #ddd;
+}
+
+/* Зачеркнутый текст для неоплаченных функций */
+.unavailable {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+/* Адаптация для мобильных устройств */
+@media (min-width: 768px) {
+    .hero-section {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        padding: 40px;
+        margin: 120px auto 80px auto;
+        width: 80%;
+    }
+
+    .hero-text {
+        max-width: 45%;
+    }
+
+    .hero-image {
+        max-width: 25%;
+    }
+}
