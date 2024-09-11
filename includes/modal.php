@@ -9,12 +9,16 @@
           <div class="modal-body">
             <form>
               <div class="mb-3">
-                <label for="userName" class="form-label">Ваше имя</label>
+                <label for="userName" class="form-label">Ваше имя:</label>
                 <input type="text" class="form-control" id="userName" placeholder="Введите ваше имя">
               </div>
               <div class="mb-3">
-                <label for="userPhone" class="form-label">Ваш телефон</label>
+                <label for="userPhone" class="form-label">Ваш телефон:</label>
                 <input type="tel" class="form-control" id="userPhone" placeholder="+373 (__) ___-____">
+              </div>
+              <div class="mb-3">
+                <label for="userAnswer" class="form-label">Ваш вопрос:</label>
+                <input type="text" class="form-control" id="userAnswer" placeholder="Что бы вы хотели узнать?">
               </div>
             </form>
           </div>
