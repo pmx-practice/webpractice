@@ -43,11 +43,7 @@
     <?php include'sections/feedback.php'?>
 
     <!-- Подвал -->
-    <footer class="footer">
-        
-        <p>&copy; 2024 Elite Realty SRL. Все права защищены.</p>
-    </footer>
-
+    <?php include'sections/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
