@@ -17,7 +17,6 @@
     <!--Навигация-->
     <?php include'includes/navbar.php'; ?>
 
-    <button class="ask-question-btn" id="askQuestionBtn" data-bs-toggle="modal" data-bs-target="#askQuestionModal">Задать вопрос</button>
 
     <!-- Модальное окно -->
     
