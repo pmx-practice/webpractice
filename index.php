@@ -15,37 +15,37 @@
 <body>
 <div>
     <!--Навигация-->
-    <?php include'includes/navbar.php'; ?>
+    <?php include 'includes/navbar.php';?>
 
     <button class="ask-question-btn" id="askQuestionBtn" data-bs-toggle="modal" data-bs-target="#askQuestionModal">Задать вопрос</button>
 
     <!-- Модальное окно -->
-    
-    <?php include'includes/modal.php'; ?>
+
+    <?php include 'includes/modal.php';?>
 
     <!-- Hero-секция -->
     <section class="hero-section border rounded 3" id="home">
-   <?php include'sections/Hero.php';?>
+   <?php include 'sections/Hero.php';?>
 </section>
     <!-- Секция "Что вы узнаете на курсе" -->
-   
-    <?php include'sections/about_lesson.php';?>
+
+    <?php include 'sections/about_lesson.php';?>
 
     <!-- Секция программы курса -->
-   <?php include'sections/program.php'?>
+   <?php include 'sections/program.php'?>
 
     <!-- Секция тарифов -->
-    <?php include'sections/tarif.php';?>
+    <?php include 'sections/tarif.php';?>
 
     <!-- CTA Блок -->
-   <?php include'sections/STA.php'?>
+   <?php include 'sections/STA.php'?>
 
     <!-- Секция отзывов (Testimonials) -->
-    <?php include'sections/feedback.php'?>
+    <?php include 'sections/feedback.php'?>
 
     <!-- Подвал -->
     <footer class="footer">
-        
+
         <p>&copy; 2024 Elite Realty SRL. Все права защищены.</p>
     </footer>
 
