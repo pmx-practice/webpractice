@@ -235,8 +235,44 @@ body {
 .footer {
     background-color: #333333;
     color: #ffffff;
-    padding: 20px;
-    text-align: center;
+    padding: 40px 0;
+}
+
+.footer h4 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer p, .footer a {
+    color: #cccccc;
+}
+
+.footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #8AB547; /* Зелёная полоса внизу */
+    color: #ffffff;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.footer ul li a:hover {
+    color: #ffffff;
 }
 
 /* Иконки для тарифов */
