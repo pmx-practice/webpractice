@@ -23,5 +23,6 @@
                     </li>
                 </ul>
             </div>
+            <button class="ask-question-btn" id="askQuestionBtn" data-bs-toggle="modal" data-bs-target="#askQuestionModal">Задать вопрос</button>
         </div>
 </nav>
