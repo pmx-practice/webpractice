@@ -34,10 +34,13 @@
     <?php include'sections/about_lesson.php';?>
 
     <!-- Секция программы курса -->
-   <?php include'sections/program.php'?>
+   <?php include'sections/program.php'; ?>
+
+   <!-- Секция с ключевыми значениями --->
+    <?php include'sections/values.php'; ?>
 
     <!-- Секция тарифов -->
-    <?php include'sections/tarif.php';?>
+    <?php include'sections/tarif.php' ;?>
 
     <!-- CTA Блок -->
    <?php include'sections/STA.php'; ?>
