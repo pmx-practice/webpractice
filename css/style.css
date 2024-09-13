@@ -57,8 +57,8 @@ body {
 
 .ask-question-btn-1 {
     position: fixed;
-    bottom: 10px; /* Устанавливаем кнопку внизу */
-    right: 20px;  /* Размещаем кнопку справа */
+    bottom: 10px;
+    right: 20px; 
     z-index: 1050;
     background-color: #fdd835;
     color: #333;
@@ -314,4 +314,33 @@ body {
     .hero-image {
         max-width: 25%;
     }
+}
+.result{
+    display: flex;
+    justify-content: center;
+}
+.card-title{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+.card-text{
+    color: #ffffff;
+    text-align: center; 
+}
+.resname{
+    font-weight: bold;
+    text-align: center;
+}
+.h3resname{
+    text-align: center;
+}
+.card{
+    border: none;
+    border-radius: 15px;
+}
+.card-body{
+    border: none;
+    border-radius: 15px;
+    background-color: #ae70ff;
 }

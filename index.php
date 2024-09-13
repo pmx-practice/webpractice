@@ -26,8 +26,11 @@
     <section class="hero-section border rounded 3" id="home">
    <?php include'sections/Hero.php';?>
 </section>
+
+    <!--Course result section -->
+    <?php include'sections/result.php'; ?>
+
     <!-- Секция "Что вы узнаете на курсе" -->
-   
     <?php include'sections/about_lesson.php';?>
 
     <!-- Секция программы курса -->
