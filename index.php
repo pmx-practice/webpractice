@@ -26,15 +26,21 @@
     <section class="hero-section border rounded 3" id="home">
    <?php include'sections/Hero.php';?>
 </section>
+
+    <!--Course result section -->
+    <?php include'sections/result.php'; ?>
+
     <!-- Секция "Что вы узнаете на курсе" -->
-   
     <?php include'sections/about_lesson.php';?>
 
     <!-- Секция программы курса -->
-   <?php include'sections/program.php'?>
+   <?php include'sections/program.php'; ?>
+
+   <!-- Секция с ключевыми значениями --->
+    <?php include'sections/values.php'; ?>
 
     <!-- Секция тарифов -->
-    <?php include'sections/tarif.php';?>
+    <?php include'sections/tarif.php' ;?>
 
     <!-- CTA Блок -->
    <?php include'sections/STA.php'; ?>
