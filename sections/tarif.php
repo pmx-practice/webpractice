@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="tariff-card">
-                        <i class="fi fi-rr-mug-hot-alt icon"></i> <!-- Иконка для базового тарифа -->
+                        <i class="fi fi-rr-mug-hot-alt icon"></i> 
                         <h5>БАЗОВЫЙ</h5>
                         <ul>
                             <li>Прогноз<span class="icon-checked">&#10004;</span></li>
@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="tariff-card">
-                        <i class="fi fi-ss-document icon"></i> <!-- Иконка для тарифа Профи -->
+                        <i class="fi fi-ss-document icon"></i>
                         <h5>ПРОФИ</h5>
                         <ul>
                             <li>Прогноз<span class="icon-checked">&#10004;</span></li>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="tariff-card">
-                        <i class="fi fi-sr-rocket-lunch icon"></i> <!-- Иконка для премиум тарифа -->
+                        <i class="fi fi-sr-rocket-lunch icon"></i> 
                         <h5>ПРЕМИУМ</h5>
                         <ul>
                             <li>Прогноз<span class="icon-checked">&#10004;</span></li>
