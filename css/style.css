@@ -39,7 +39,6 @@ body {
     background-color: #ffffff;
 }
 
-/* Кнопка "Задать вопрос" */
 .ask-question-btn {
     
     position: fixed;
@@ -69,7 +68,6 @@ body {
     cursor: pointer;
 }
 
-/* Hero-секция */
 .hero-section {
     background-color: #b2bff7;
     color: white;
@@ -113,7 +111,6 @@ body {
     width: 100%;
     height: auto;
 }
-
 .btn-outline-light {
     color: #ffffff;
     border-color: #ffffff;
@@ -124,7 +121,6 @@ body {
     color: #000000;
 }
 
-/* Секции */
 .program-section, .tariff-section, .what-you-learn {
     padding: 50px 0;
 }
@@ -165,7 +161,6 @@ body {
     margin-top: 20px;
 }
 
-/* CTA блок */
 .cta-section {
     background-color: #fdd835;
     color: #333;
@@ -190,7 +185,6 @@ body {
     border-radius: 50px;
 }
 
-/* Testimonials секция */
 .testimonials-section {
     background-color: #ffffff;
     padding: 50px 0;
@@ -224,7 +218,6 @@ body {
     margin-top: 20px;
 }
 
-/* Подвал */
 .footer {
     background-color: #333333;
     color: #ffffff;
@@ -246,7 +239,7 @@ body {
 }
 
 .footer-bottom {
-    background-color: #8AB547; /* Зелёная полоса внизу */
+    background-color: #8AB547; 
     color: #ffffff;
 }
 
@@ -268,7 +261,6 @@ body {
     color: #ffffff;
 }
 
-/* Иконки для тарифов */
 .icon {
     font-size: 3rem;
     margin-bottom: 15px;
@@ -283,13 +275,11 @@ body {
     color: #ddd;
 }
 
-/* Зачеркнутый текст для неоплаченных функций */
 .unavailable {
     text-decoration: line-through;
     color: #aaa;
 }
 
-/* Адаптация для мобильных устройств */
 @media (min-width: 768px) {
     .hero-section {
         flex-direction: row;
@@ -308,6 +298,13 @@ body {
         max-width: 25%;
     }
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+}
+
 .result{
     display: flex;
     justify-content: center;

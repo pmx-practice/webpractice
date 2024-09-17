@@ -13,8 +13,8 @@
                     </div>
                     <div class="mb-3">
                         <label for="userPhone" class="form-label">Ваш телефон:</label>
-                        <input type="tel" class="form-control" id="userPhone" placeholder="+373 (__) ___-____" required pattern="\+373\s\(\d{2}\)\s\d{3}-\d{4}">
-                        <div class="form-text">Формат: +373 (__) ___-____</div>
+                        <input type="tel" class="form-control" id="userPhone" placeholder="+373 (__) ___-____" required>
+                        <!-- Убираем атрибут pattern -->
                     </div>
                     <div class="mb-3">
                         <label for="userAnswer" class="form-label">Ваш вопрос:</label>
