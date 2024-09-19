@@ -36,7 +36,7 @@
         <div class="col-md-4">
             <div class="card m-2 mt-3 pb-4">
                 <h2 class="keytitle">🔑Turnkey Services</h2>
-                <h5 >Comprehensive, end-to-end solutions, managing aspect to deliver fully services tailored.</h5>
+                <h5 >Comprehensive, end-to-end solutions, managing aspect to deliver fully services tailored tt.</h5>
             </div>
         </div>   
         </div>
