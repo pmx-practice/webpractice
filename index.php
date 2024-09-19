@@ -33,6 +33,9 @@
     <!-- Секция "Что вы узнаете на курсе" -->
     <?php include'sections/about_lesson.php';?>
 
+    <!--About Speaker section--->
+    <?php include'sections/about_sp.php'; ?>
+
     <!-- Секция программы курса -->
    <?php include'sections/program.php'; ?>
 
