@@ -1,13 +1,12 @@
-
 body {
     background-color: #bec9fa;
-    color: #000000; /* Текст черный */
+    color: #000000;
     font-size: 0.9rem;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
-/* Навигация */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -33,14 +32,15 @@ body {
 
 .navbar-toggler {
     border: none;
+    padding: 0;
 }
 
 .navbar-toggler-icon {
-    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+
 .ask-question-btn {
-    
     position: fixed;
     top: 10px;
     right: 20px;
@@ -52,12 +52,148 @@ body {
     border-radius: 30px;
     font-size: 1rem;
     cursor: pointer;
+    margin-left: 15px;
+}
+
+
+.section, .hero-section, .program-section, .tariff-section, .what-you-learn, .cta-section, .testimonials-section, .footer {
+    margin-bottom: 40px;
+}
+
+
+.tariff-card, .learn-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-height: 450px;
+    margin-bottom: 40px; 
+}
+
+.tariff-card h5, .learn-card h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.tariff-card ul, .learn-card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.tariff-card ul li, .learn-card ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+.tariff-card ul li .icon-checked {
+    float: right;
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: transparent; 
+    border-radius: 50%; 
+    border: 2px solid #333; 
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(1); 
+}
+
+/* Меняем цвет стрелок при наведении */
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #fdd835; 
+    border-color: #fdd835;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    filter: invert(0); 
+}
+
+
+@media (max-width: 768px) {
+
+    section, .hero-section, .program-section, .tariff-section, .what-you-learn, .cta-section, .testimonials-section, .footer {
+        margin-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    body {
+        font-size: 0.85rem;
+    }
+
+    h1, h2, h3, h4, h5 {
+        font-size: 1.5rem;
+    }
+
+    p, li, .btn {
+        font-size: 0.9rem;
+    }
+
+    .ask-question-btn {
+        position: relative;
+        display: inline-block;
+        margin-top: 0;
+        margin-left: 10px;
+        padding: 5px 10px;
+        font-size: 0.85rem;
+    }
+
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+ 
+    .navbar-collapse {
+        padding-bottom: 20px;
+    }
+
+
+    .tariff-card, .learn-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-section {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        padding: 40px;
+        margin: 120px auto 80px auto;
+        width: 80%;
+    }
+
+    .hero-text {
+        max-width: 45%;
+    }
+
+    .hero-image {
+        max-width: 25%;
+    }
 }
 
 .ask-question-btn-1 {
     position: fixed;
     bottom: 10px;
-    right: 20px; 
+    right: 20px;
     z-index: 1050;
     background-color: #fdd835;
     color: #333;
@@ -123,42 +259,6 @@ body {
 
 .program-section, .tariff-section, .what-you-learn {
     padding: 50px 0;
-}
-
-.tariff-card, .learn-card {
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    min-height: 450px;
-}
-
-.tariff-card h5 {
-    font-weight: bold;
-}
-
-.tariff-card ul {
-    text-align: left;
-    list-style: none;
-    padding: 0;
-    width: 100%;
-}
-
-.tariff-card ul li {
-    margin-bottom: 10px;
-}
-
-.tariff-card ul li .icon-checked {
-    float: right;
-}
-
-.tariff-card button {
-    margin-top: 20px;
 }
 
 .cta-section {
@@ -239,7 +339,7 @@ body {
 }
 
 .footer-bottom {
-    background-color: #8AB547; 
+    background-color: #8AB547;
     color: #ffffff;
 }
 
@@ -305,40 +405,47 @@ body {
     height: 20px;
 }
 
-.result{
+.result {
     display: flex;
     justify-content: center;
 }
-.card-title{
+
+.card-title {
     color: #ffffff;
     font-weight: bold;
     text-align: center;
 }
-.card-text{
+
+.card-text {
     color: #ffffff;
-    text-align: center; 
+    text-align: center;
 }
-.resname{
+
+.resname {
     font-weight: bold;
     text-align: center;
 }
-.h3resname{
+
+.h3resname {
     text-align: center;
 }
-.card{
-    flex: 1 1 calc(33.333% - 3rem);
-    box-sizing: border-box;
+
+
+
+.card {
     border: none;
     border-radius: 15px;
     padding: 20px;
     text-align: center;
 }
-.card-body{
+
+.card-body {
     border: none;
     border-radius: 15px;
     background-color: #ae70ff;
     color: #000000;
 }
+
 .cards-container{
     display: flex;
     flex-wrap: wrap;
@@ -349,11 +456,13 @@ body {
     padding-left: calc(var(--bs-gutter-x) * 0.5);
     margin-top: var(--bs-gutter-y);
 }
-.namser{
+
+.namser {
     text-align: center;
     font-weight: bold;
     margin: 30px;
 }
+
 .keytitle{
     font-size: 170%;
     font-weight: bold;
@@ -392,3 +501,9 @@ body {
     padding-left: calc(var(--bs-gutter-x)* .5);
     margin-top: var(--bs-gutter-y);
 }
+
+
+.keytitle {
+    font-weight: bold;
+}
+
