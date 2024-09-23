@@ -3,7 +3,7 @@
         <h1 class="namser">Services</h1>
         <div class="cards-container row">
             
-        <div class="col-md  -4">
+        <div class="col-md-4">
             <div class="card m-2">
                 <h2 class="keytitle">⚡Accurate Forecasts</h2>
                 <h5>Rely on high precision forecasts generated from the best data sources to optimize your power generation and usage.</h5>

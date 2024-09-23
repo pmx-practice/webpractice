@@ -43,7 +43,7 @@ body {
 .ask-question-btn {
     position: fixed;
     top: 10px;
-    right: 20px;
+    right: 50px;
     z-index: 1050;
     background-color: #fdd835;
     color: #333;
@@ -52,7 +52,7 @@ body {
     border-radius: 30px;
     font-size: 1rem;
     cursor: pointer;
-    margin-left: 15px;
+    margin-left: 15px;w
 }
 
 
@@ -468,6 +468,7 @@ body {
     margin-bottom: 20px;
 }
 .aboutsp-section {
+    position: relative;
     border-radius: 10px;
     background-color: #b2bff7;
     color: rgb(0, 0, 0);
@@ -477,21 +478,21 @@ body {
 
 .aboutsp-section img {
     max-width: 100%;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .aboutsp-section text{
     max-width: 100%;
+    padding-bottom: 9%;
 }
 
 .aboutsp-section button{
-    position: relative;
+    position: absolute;
     height: 50px;
-    float: right;
-    top: 22%;
+    bottom: 5%;
+    right: 5%;
 }
 
 .keytitle {
     font-weight: bold;
 }
-
