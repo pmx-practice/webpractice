@@ -1,4 +1,4 @@
-<section class="cta-section py-5 bg-warning text-dark">
+<section class="cta-section py-5 text-dark"> 
     <div class="container text-center">
         <h2 class="mb-4 fw-bold display-4">Хотите узнать больше?</h2>
         <p class="mb-4 lead">Запишитесь на бесплатную консультацию с нашими экспертами</p>

@@ -1,4 +1,3 @@
-
 <section class="tariff-section" id="tariff-section">
         <div class="container">
             <h2 class="text-center mb-5">ТАРИФЫ ОБУЧЕНИЯ</h2>
@@ -57,4 +56,5 @@
                 </div>
             </div>
         </div>
+        <div class="wave"></div>
     </section>
