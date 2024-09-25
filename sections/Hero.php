@@ -7,6 +7,6 @@
             <a href="#program" class="btn btn-outline-light">СМОТРЕТЬ ПРОГРАММУ</a>
         </div>
         <div class="hero-image">
-            <img src="https://png.klev.club/uploads/posts/2024-03/png-klev-club-p-anime-tyanka-png-22.png" alt="Картинка персонажа">
+            <img src="https://png.klev.club/uploads/posts/2024-04/png-klev-club-e8ii-p-chelovek-za-kompyuterom-png-2.png" alt="Картинка персонажа">
         </div>
 </section>
